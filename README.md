@@ -1,2 +1,2 @@
 # javabasics
- progetto javabasics di start2impact
+ progetto del corso javabasics di start2impact
