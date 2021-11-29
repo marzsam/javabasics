@@ -4,11 +4,11 @@ public class Magazine {
     private int id;
     private String nome;
     private String descrizione;
-    private double prezzo;
+    private String prezzo;
     private String tipologia;
     private String disponibile;
 
-    public Magazine(int id, String nome, String descrizione, double prezzo, String tipologia, String disponibile){
+    public Magazine(int id, String nome, String descrizione, String prezzo, String tipologia, String disponibile){
         this.id = id;
         this.nome = nome;
         this.descrizione = descrizione;
@@ -71,5 +71,4 @@ public class Magazine {
                this.disponibile+separator+
                "\n";
     }
-
 }

@@ -25,5 +25,4 @@ public class ExportFreeMagazine{
         byte[] strToBytes = toWrite.getBytes();
         Files.write(path, strToBytes);
     }
-
 }

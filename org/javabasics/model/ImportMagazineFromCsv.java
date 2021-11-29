@@ -11,13 +11,12 @@ public class ImportMagazineFromCsv extends ReadCsv{
             int id = Integer.parseInt(elem[0]);
             String nome = elem[1];
             String descrizione = elem[2];
-            double prezzo = Double.parseDouble(elem[4]);
+            String prezzo = elem[4];
             String tipologia = elem[3];
             String disponibile = elem[5];
 
             new AddToSet<Magazine>(magazineSet, new Magazine(id, nome, descrizione, prezzo, tipologia, disponibile));
 
         }
-
     }
 }

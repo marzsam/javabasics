@@ -16,6 +16,4 @@ public class AddToSet <E>{
         else
             return "Impossibile inserire: ID già presente";
     }
-
-
 }

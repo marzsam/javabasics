@@ -8,6 +8,7 @@ public class ImportUserFromCsv extends ReadCsv{
     public ImportUserFromCsv(UserSet userSet) throws IOException{
         super("org/javabasics/csv/utenti.csv", ";");
         for(String[] elem : super.getParsedLineList()){
+            
             int id = Integer.parseInt(elem[0]);
             String nome = elem[1];
             String cognome = elem[2];
@@ -17,9 +18,6 @@ public class ImportUserFromCsv extends ReadCsv{
             String documentoId = elem[5];
 
             new AddToSet<User>(userSet, new User(id, nome, cognome, dataDiNascita, indirizzo, documentoId));
-
         }
-
-    }
-    
+    }    
 }
