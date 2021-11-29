@@ -25,8 +25,8 @@ I comandi sopra riportati sono stati testati su windows 10 pro 64 bit con instal
 
 ## Funzioni dell'applicazione
 
-L'applicazione permette di gestire gli abbonamenti ad un catalogo di riviste scientifiche. Di seguito si riportano i principali comandi dell'applicazione.
-
+L'applicazione permette di gestire gli abbonamenti ad un catalogo di riviste scientifiche. Di seguito si riportano i principali comandi dell'applicazione. Il numero relativo al comando che si vuole impartire deve essere inserito nel terminale seguito dal tasto invio. 
+0. ESCI: Termina l'esecuzione dell'applicazione.
 1. Visualizza tutto le riviste:
 Mostra tutte le riviste in catalogo. Per ogni rivista viene mostrato l'ID, il nome, una breve descrizione, prezzo, tipologia e disponibilità.
 2. Abbonati a una rivista:
@@ -41,5 +41,3 @@ Esporta le riviste diposnibile su file .csv nominato con la data del giorno (riv
 Visualizza tutti gli utenti presenti nell'applicazione.
 7. Visualizza tutti gli abbonamento:
 Visualizza tutti gli abbonamenti presenti nell'applicazione.
-0. ESCI:
-Termina l'esecuzione dell'applicazione.
