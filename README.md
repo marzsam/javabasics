@@ -23,56 +23,23 @@ java -jar application.jar
 ```
 I comandi sopra riportati sono stati testati su windows 10 pro 64 bit con installato jdk-17.0.0.35
 
-## Usage example
+## Funzioni dell'applicazione
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+L'applicazione permette di gestire gli abbonamenti ad un catalogo di riviste scientifiche. Di seguito si riportano i principali comandi dell'applicazione.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
-
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-make install
-npm test
-```
-
-## Release History
-
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
-
-## Meta
-
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
-
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/yourname/github-link](https://github.com/dbader/)
-
-## Contributing
-
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+* 1: Visualizza tutto le riviste
+Mostra tutte le riviste in catalogo. Per ogni rivista viene mostrato l'ID, il nome, una breve descrizione, prezzo, tipologia e disponibilità.
+* 2: Abbonati a una rivista
+Permette di abbonarsi ad una rivista se questa è disponibile. E' necessario fornire l'id della rivista e l'id dell'utente che vuole abbonarsi.
+* 3: Disdici un abbonamento
+Consente di disdire un abbonamento. E' necessario fornire l'id dell'abbonamento da disdire.
+* 4: Aggiungi un nuovo utente
+Permette di aggiungere un nuovo utente, per ogni utente inserito è necessario fornire un id, un nome, un cognome, una data di nascita (in formato dd/mm/yyyy), un indirizzo e un documento d'identità.
+* 5: Esporta le riviste disponibili su file
+Esporta le riviste diposnibile su file .csv nominato con la data del giorno (riviste_dd_mm_yyyy).
+* 6: Visualizza tutti gli utenti
+Visualizza tutti gli utenti presenti nell'applicazione.
+* 7: Visualizza tutti gli abbonamento
+Visualizza tutti gli abbonamenti presenti nell'applicazione.
+* 0: ESCI
+Termina l'esecuzione dell'applicazione.
