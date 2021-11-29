@@ -3,33 +3,25 @@
 
 ![](img/app.PNG)
 
-## Compilare ed eseguire l'applicazione 
+## Compilare, creare il file .jar ed eseguire l'applicazione 
 
-Windows (jdk-17.0.0.35):
+Windows (è necessario aver installato JDK):
 
-Scaricare e scompattare la cartella. 
-Posizionarsi con il terminale all'interno della cartella e digitare:
+Scaricare la cartella in formato zip nel proprio computer e scompattarla. 
+Aprire il prompt dei comandi e posizionarsi all'interno della cartella appena scompattata.
+Per compilare l'applicazione digitare:
 ```sh
 javac \org\javabasics\Application.java
 ```
-per eseguire l'applicazione digitare ora
+per creare il file jar digitare ora il seguente comando:
 ```sh
-java /org/javabasics/Application
+jar cfe application.jar org.javabasics.Application org\javabasics\Application.class org\javabasics\model\*.class  org\javabasics\service\*.class org\javabasics\controller\*.class org\javabasics\csv\*.csv
 ```
-
-## Creare il file .jar ed eseguire l'applicazione
-
-Windows (jdk-17.0.0.35):
-
-Scaricare e scompattare la cartella. 
-Posizionarsi con il terminale all'interno della cartella e digitare:
+per eseguire l'applicazione digitare
 ```sh
-javac -jar \org\javabasics\Application.java
+java -jar application.jar
 ```
-per eseguire l'applicazione digitare ora
-```sh
-java /org/javabasics/Application
-```
+I comandi sopra riportati sono stati testati su windows 10 pro 64 bit con installato jdk-17.0.0.35
 
 ## Usage example
 
