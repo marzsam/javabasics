@@ -27,19 +27,19 @@ I comandi sopra riportati sono stati testati su windows 10 pro 64 bit con instal
 
 L'applicazione permette di gestire gli abbonamenti ad un catalogo di riviste scientifiche. Di seguito si riportano i principali comandi dell'applicazione.
 
-* 1: Visualizza tutto le riviste
+1. Visualizza tutto le riviste:
 Mostra tutte le riviste in catalogo. Per ogni rivista viene mostrato l'ID, il nome, una breve descrizione, prezzo, tipologia e disponibilità.
-* 2: Abbonati a una rivista
+2. Abbonati a una rivista:
 Permette di abbonarsi ad una rivista se questa è disponibile. E' necessario fornire l'id della rivista e l'id dell'utente che vuole abbonarsi.
-* 3: Disdici un abbonamento
+3. Disdici un abbonamento:
 Consente di disdire un abbonamento. E' necessario fornire l'id dell'abbonamento da disdire.
-* 4: Aggiungi un nuovo utente
+4. Aggiungi un nuovo utente:
 Permette di aggiungere un nuovo utente, per ogni utente inserito è necessario fornire un id, un nome, un cognome, una data di nascita (in formato dd/mm/yyyy), un indirizzo e un documento d'identità.
-* 5: Esporta le riviste disponibili su file
+5. Esporta le riviste disponibili su file:
 Esporta le riviste diposnibile su file .csv nominato con la data del giorno (riviste_dd_mm_yyyy).
-* 6: Visualizza tutti gli utenti
+6. Visualizza tutti gli utenti:
 Visualizza tutti gli utenti presenti nell'applicazione.
-* 7: Visualizza tutti gli abbonamento
+7. Visualizza tutti gli abbonamento:
 Visualizza tutti gli abbonamenti presenti nell'applicazione.
-* 0: ESCI
+0. ESCI:
 Termina l'esecuzione dell'applicazione.
