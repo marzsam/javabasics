@@ -1,5 +1,5 @@
-# Product Name
-> Short blurb about what your product does.
+# Java Basics Information
+> App per la gestione di abbonamenti a riviste scientifiche
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
