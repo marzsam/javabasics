@@ -1,26 +1,34 @@
 # Java Basics Information
 > App per la gestione di abbonamenti a riviste scientifiche
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
-One to two paragraph statement about your product and what it does.
-
 ![](img/app.PNG)
 
-## Installation
+## Compilare ed eseguire l'applicazione 
 
-OS X & Linux:
+Windows (jdk-17.0.0.35):
 
+Scaricare e scompattare la cartella. 
+Posizionarsi con il terminale all'interno della cartella e digitare:
 ```sh
-npm install my-crazy-module --save
+javac \org\javabasics\Application.java
+```
+per eseguire l'applicazione digitare ora
+```sh
+java /org/javabasics/Application
 ```
 
-Windows:
+## Creare il file .jar ed eseguire l'applicazione
 
+Windows (jdk-17.0.0.35):
+
+Scaricare e scompattare la cartella. 
+Posizionarsi con il terminale all'interno della cartella e digitare:
 ```sh
-edit autoexec.bat
+javac -jar \org\javabasics\Application.java
+```
+per eseguire l'applicazione digitare ora
+```sh
+java /org/javabasics/Application
 ```
 
 ## Usage example
