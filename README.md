@@ -11,7 +11,7 @@ Scaricare la cartella in formato zip nel proprio computer e scompattarla.
 Aprire il prompt dei comandi e posizionarsi all'interno della cartella appena scompattata.
 Per compilare l'applicazione digitare:
 ```sh
-javac \org\javabasics\Application.java
+javac org\javabasics\Application.java
 ```
 per creare il file jar digitare ora il seguente comando:
 ```sh
